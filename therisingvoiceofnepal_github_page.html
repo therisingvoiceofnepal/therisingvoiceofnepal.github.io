@@ -1,0 +1,128 @@
+<!--
+  GitHub Pages-ready single-file HTML for "The Rising Voice of Nepal"
+  Instructions:
+  1. Save this file as index.html in your GitHub repository's root (or docs/) to host with GitHub Pages.
+  2. Place the provided logo image in the same folder and name it: logo.jpg
+     (The assistant provided the image at /mnt/data/d1ee8abf-e042-48a3-b4b8-9e3412c82508.jpg — upload it to your repo as logo.jpg)
+  3. Push to GitHub and enable GitHub Pages for the repo (Settings → Pages → select branch/root or /docs).
+-->
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/jpeg" href="assets/rising_voice_of_nepal.jpeg">
+  <title>The Rising Voice of Nepal</title>
+  <meta name="description" content="The Rising Voice of Nepal — news, updates and more. Office: Kathmandu-31, Nepal" />
+  <style>
+    :root{--accent:#d92f39;--dark:#0f1724;--muted:#6b7280}
+    *{box-sizing:border-box}
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; color:var(--dark); background:#f7fafc}
+    .container{max-width:980px;margin:36px auto;padding:24px}
+    header{display:flex;align-items:center;gap:18px}
+    .logo{width:88px;height:88px;flex:0 0 88px;border-radius:12px;overflow:hidden;background:#fff;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 16px rgba(15,23,36,0.06)}
+    .logo img{max-width:100%;height:auto;display:block}
+    h1{font-size:1.6rem;margin:0}
+    p.lead{margin:6px 0 0;color:var(--muted)}
+
+    .card{background:#fff;border-radius:12px;padding:20px;margin-top:20px;box-shadow:0 8px 30px rgba(2,6,23,0.04)}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:20px}
+
+    .contact-list{list-style:none;padding:0;margin:0}
+    .contact-list li{padding:10px 0;border-bottom:1px dashed #eef2f7}
+    .contact-list li:last-child{border-bottom:0}
+    .muted{color:var(--muted);font-size:0.95rem}
+    .big{font-weight:600}
+
+    .socials{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border-radius:10px;background:#fff;border:1px solid #eef2f7;text-decoration:none;color:var(--dark);box-shadow:0 4px 10px rgba(2,6,23,0.02)}
+    .btn--accent{background:var(--accent);color:#fff;border:0}
+
+    footer{margin-top:28px;text-align:center;color:var(--muted);font-size:0.9rem}
+
+    @media (max-width:880px){.grid{grid-template-columns:1fr}.logo{width:72px;height:72px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <img src="assets/rising_voice_of_nepal.jpeg" alt="The Rising Voice of Nepal logo" />
+      </div>
+      <div>
+        <h1>The Rising Voice of Nepal</h1>
+        <p class="lead">The Rising Voice — Nepali news, analysis and media from Kathmandu.</p>
+      </div>
+    </header>
+
+    <section class="card">
+      <div class="grid">
+        <div>
+          <h2 style="margin-top:0">About</h2>
+          <p class="muted">Uncovering truths that matter to Nepal 🇳🇵 — exposing corruption, threats, and anything that harms our nation. #NepalFirst #InvestigateForChange #TruthMatters</p>
+
+          <h3 style="margin-top:18px">Quick links</h3>
+          <div class="socials">
+            <a class="btn" href="https://therisingvoiceofnepal.com" target="_blank" rel="noopener">Website</a>
+            <a class="btn" href="https://facebook.com/therisingvoiceofnepal" target="_blank" rel="noopener">Facebook</a>
+            <a class="btn" href="https://youtube.com/@therisingvoiceofnepal" target="_blank" rel="noopener">YouTube</a>
+            <a class="btn" href="https://instagram.com/therisingvoiceofnepal" target="_blank" rel="noopener">Instagram</a>
+          </div>
+
+          <h3 style="margin-top:18px">Short message</h3>
+          <p class="muted">Stay informed with verified updates and regional analysis. Subscribe on YouTube and follow us on social media.</p>
+        </div>
+
+        <aside>
+          <h3 style="margin-top:0">Contact</h3>
+          <ul class="contact-list">
+            <li>
+              <div class="muted">Office</div>
+              <div class="big">Kathmandu-31, Nepal</div>
+            </li>
+            <li>
+              <div class="muted">Postcode</div>
+              <div class="big">44600</div>
+            </li>
+            <li>
+              <div class="muted">Phone</div>
+              <div class="big"><a href="tel:+977-9708063459">+977-9708063459</a></div>
+            </li>
+            <li>
+              <div class="muted">Email</div>
+              <div class="big"><a href="mailto:info@therisingvoiceofnepal.com">info@therisingvoiceofnepal.com</a></div>
+            </li>
+            <li>
+              <div class="muted">Website</div>
+              <div class="big"><a href="https://therisingvoiceofnepal.com" target="_blank" rel="noopener">therisingvoiceofnepal.com</a></div>
+            </li>
+          </ul>
+
+          <div style="margin-top:14px">
+            <a class="btn btn--accent" href="mailto:info@therisingvoiceofnepal.com">Contact Us</a>
+          </div>
+
+          <div style="margin-top:18px" class="muted">Follow</div>
+          <div class="socials" style="margin-top:8px">
+            <a class="btn" href="https://facebook.com/therisingvoiceofnepal" target="_blank" rel="noopener">Facebook</a>
+            <a class="btn" href="https://youtube.com/@therisingvoiceofnepal" target="_blank" rel="noopener">YouTube</a>
+            <a class="btn" href="https://instagram.com/therisingvoiceofnepal" target="_blank" rel="noopener">Instagram</a>
+          </div>
+        </aside>
+      </div>
+
+      <hr style="border:none;border-top:1px solid #f1f5f9;margin:20px 0" />
+
+      <div style="display:flex;gap:16px;flex-wrap:wrap;align-items:center;justify-content:space-between">
+        <div class="muted">Office Address: Kathmandu-31, Nepal • Postcode: 44600</div>
+        <div class="muted">Email: <a href="mailto:info@therisingvoiceofnepal.com">info@therisingvoiceofnepal.com</a> • Phone: <a href="tel:+977-9708063459">+977-9708063459</a></div>
+      </div>
+    </section>
+
+    <footer>
+      © <strong>The Rising Voice of Nepal</strong> — All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
